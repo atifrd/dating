@@ -1,0 +1,51 @@
+<h1>Employee Data</h1>
+
+<p>This component demonstrates fetching Employee data from the server.</p>
+
+<p *ngIf="!empList"><em>Loading...</em></p>
+
+<p>
+  <a [routerLink]="['/register-employee']">Create New</a>
+</p>
+
+<table class='table' *ngIf="empList">
+  <thead>
+    <tr>
+      <th>StudentId</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Gender</th>
+      <th>DateOfBirth</th>
+      <th>PhoneNumber</th>
+      <th>Email</th>
+      <th>Address1</th>
+      <th>Address2</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of empList">
+      <td>{{ emp.StudentId }}</td>
+      <td>{{ emp.FirstName }}</td>
+      <td>{{ emp.LastName }}</td>
+      <td>{{ emp.Gender }}</td>
+      <td>{{ emp.DateOfBirth }}</td>
+      <td>{{ emp.PhoneNumber }}</td>
+      <td>{{ emp.DateOfBirth }}</td>
+      <td>{{ emp.Email }}</td>
+      <td>{{ emp.Address1 }}</td>
+      <td>{{ emp.Address2 }}</td>
+
+      <td>{{ emp.City }}</td>
+      <td>{{ emp.State }}</td>
+      <td>{{ emp.Zip }}</td>
+      <td>
+      <td>
+        <a [routerLink]="['/employee/edit/', emp.StudentId]">Edit</a> 
+        <a [routerLink]="" (click)="delete(emp.StudentId)">Delete</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

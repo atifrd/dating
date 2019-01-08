@@ -1,0 +1,11 @@
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\bin\Debug\netcoreapp2.0\EFNgApp.deps.json
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\bin\Debug\netcoreapp2.0\EFNgApp.runtimeconfig.json
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\bin\Debug\netcoreapp2.0\EFNgApp.runtimeconfig.dev.json
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\bin\Debug\netcoreapp2.0\EFNgApp.dll
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.csproj.CoreCompileInputs.cache
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.AssemblyInfoInputs.cache
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.AssemblyInfo.cs
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\bin\Debug\netcoreapp2.0\EFNgApp.pdb
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.dll
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.pdb
+d:\Visual Studio 2017\Projects\EFNgApp\EFNgApp\obj\Debug\netcoreapp2.0\EFNgApp.csprojResolveAssemblyReference.cache
